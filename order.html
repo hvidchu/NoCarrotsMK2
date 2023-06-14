@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+	<title>線上預約</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+</head>
+<body>
+<!-- 載入畫面 -->
+	<div id="loading">
+		<div class="jump">
+			<div class="jump_left">
+				<span></span>
+				<div></div>
+			</div>
+			<div class="jump_right">
+				<span></span>
+				<div></div>
+			</div>
+			<div class="body"></div>
+			<div class="shadow"></div>
+		</div>
+		<div class="happydot">
+			<div class="dot dot1"></div>
+			<div class="dot dot2"></div>
+			<div class="dot dot3"></div>
+		</div>
+	</div>
+<!-- 外包裝 -->
+	<div class="wrapper">
+<!-- 導覽列 -->
+		<div class="logo">
+			<h1><a href="index.html">兔子不吃紅蘿蔔</a></h1>
+			<h2><a href="index.html">NoCarrots</a></h2>
+		</div>
+		<input type="checkbox" id="ham_btn">
+		<label class="ham_box" for="ham_btn">
+			<span></span>
+			<span></span>
+			<span></span>
+		</label>
+
+		<button type="button" id="back_to_top" >
+			<span></span>
+			<span></span>
+		</button>
+
+		<nav class="nav_area">
+			<ul>
+				<li class="nav_res">
+					<a href="res.html">主題餐廳</a>
+					<span></span>
+				</li>
+				<li class="nav_news">
+					<a href="news.html">最新消息</a>
+					<span></span>
+				</li>
+				<li class="nav_pro">
+					<a href="products.html">周邊商品</a>
+					<span></span>
+				</li>
+				<li class="nav_about">
+					<a href="about.html">關於我們</a>
+					<span></span>
+				</li>
+				<li class="nav_order">
+					<a href="order.html">線上預約</a>
+					<span></span>
+				</li>
+			</ul>
+		</nav>
+		<div class="txt_area">
+			<div class="info">
+				<h2> 03-4257387</h2>
+				<h2>桃園市中壢區中大路300號</h2>
+			</div>
+			<footer>Copyright © 2019 兔子不吃紅蘿蔔</br>
+			All Rights Reserved</footer>
+		</div>
+<!-- 內容頁 -->
+		<div class="content_area">
+<!-- 最上面 -->
+			<header class="order_header page_top">
+				<h1>線上預約</h1>
+			</header>
+<!-- 麵包屑 -->
+			<nav class="breadcrumb box">
+				<ol>
+					<li><a href="index.html">首頁</a></li>
+					<li><a href="order.html">線上預約</a></li>
+				</ol>
+			</nav>
+<!-- 內容 -->
+			<div class="order_container box">
+				<section class="order_content">
+					<h2>預約須知</h2>
+					<ol>
+						<li>線上訂位提供一般預約，可預約兩個月內場次。</li>
+						<li>線上訂位如欲取消或變動，請於預約用餐前一日來電(02)2792-1156或私訊FB粉絲團、Mail客服信箱。</li>
+						<li>平/假日之最低消費限制，請參考官網之消費方式</li>
+						<li>訂位時間將保留15分鐘，若行程有延遲需晚入場，敬請主動聯繫餐廳，否則訂位將會自動取消。</li>
+						<li>候補中與候補成功之會員將以Mail通知。</li>
+						<li>包場訂位開放半年內場次，歡迎來電(02)2792-1156或私訊FB粉絲團、Mail客服信箱，將有專人與您聯繫。</li>
+					</ol>
+				</section>
+				
+				<section class="input_container">
+					<form class="order_input">
+						<p>姓名<input type="text" name="" id="input_name" required="required"></p>
+						<p>手機<input type="text" name="" id="input_phone" required="required"></p>
+						<p>Email<input type="text" name="" id="input_mail" required="required"></p>
+						<p>日期<input type="date" name="" id="input_date" required="required"></p>
+						<p>人數<input type="text" name="" id="input_person" required="required"></p>
+						<p>備註<input type="text" name="" id="input_other"></p>
+						<input type="submit" name=""  value="送出" id="input_go">
+					</form>
+					<img src="img/order/input.png" alt="打電話囉">
+				</section>
+			</div>
+
+		</div>
+<!-- 外包裝結束 -->
+	</div>
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/slick.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
